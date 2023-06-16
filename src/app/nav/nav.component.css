@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-nav{
+    width: 137px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.a-nav{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    width: 110px;
+}

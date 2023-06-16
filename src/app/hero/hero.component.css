@@ -1,0 +1,42 @@
+.div-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+  .img{
+    width: 315px;
+    height: 240px;
+    object-fit: contain;
+   
+}
+.div{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.span::before {
+    content: attr(data-number);
+  bottom: -10px; /* Ajusta la posición vertical de la porción inferior del número */
+  left: -25px; /* Ajusta la posición horizontal del número */
+  font-weight: bold;
+  color: white; /* Color del número */
+  background-color: black; /* Fondo del número */
+  width: 20px; /* Ancho del número */
+  text-align: center; /* Centra el número horizontalmente */
+  font-size: 1600%;
+  z-index: -1; /* Asegura que el número esté detrás de la imagen */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .span{
+    
+   
+    color: white; /* Color del número */
+    background-color: black; /* Fondo del número */
+    width: 20px; /* Ancho del número */
+    text-align: center; /* Centra el número horizontalmente */
+    z-index: -1; /* Asegura que el número esté detrás de la imagen */
+    }
+  
+  
