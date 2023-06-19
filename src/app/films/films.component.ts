@@ -8,4 +8,6 @@ import { FilmsI } from '../models/interface';
 })
 export class FilmsComponent {
   @Input() infoFilms!: FilmsI;
+
+  public mostrarSinopsis = false;
 }

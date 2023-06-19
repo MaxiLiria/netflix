@@ -8,4 +8,6 @@ import { FilmsI, GalleryI } from '../models/interface';
 })
 export class HeroComponent {
 @Input() infoPopular!: GalleryI;
+
+public mostrarSinopsis = false;
 }

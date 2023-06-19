@@ -1,4 +1,5 @@
 <div class="films">
     
-    <img class="img" src="{{infoFilms.img}}" alt="{{infoFilms.title}}" />
+    <img (click)="mostrarSinopsis = !mostrarSinopsis" class="img" src="{{infoFilms.img}}" alt="{{infoFilms.title}}" />
+    <p *ngIf="mostrarSinopsis">Sinopsis de la pelicula.</p>
 </div>

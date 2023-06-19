@@ -8,4 +8,6 @@ import { GalleryI } from '../models/interface';
 })
 export class GelleryComponent {
   @Input() infoGallery!: GalleryI;
+
+  
 }

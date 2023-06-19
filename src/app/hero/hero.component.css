@@ -8,6 +8,7 @@
     width: 315px;
     height: 240px;
     object-fit: contain;
+    cursor: pointer;
    
 }
 .div{
@@ -39,4 +40,6 @@
     z-index: -1; /* Asegura que el número esté detrás de la imagen */
     }
   
-  
+    p{color: white;
+    margin-top: 0;
+    }

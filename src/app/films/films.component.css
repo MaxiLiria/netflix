@@ -1,5 +1,10 @@
 .img{
     width: 332px;
-    height: 285px;
+    height: 213px;
     object-fit: contain;
+    cursor: pointer;
+}
+p{
+    color: white;
+    margin-top: 0;
 }

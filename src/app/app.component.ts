@@ -63,7 +63,7 @@ terrorFilms: GalleryI = {
 }
 
 popularFilms: GalleryI = {
-  section: "Populares",
+  section: "Populares en España",
   films: [
     {
       title: "The Last Dance",
